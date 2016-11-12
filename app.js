@@ -118,8 +118,28 @@
 //     }
 // }
 
-var a = prompt("write anything with the word world")
-var b = a.indexOf("w");
-var c = a.indexOf("d");
-d = a.slice(b,c+1);
-alert(d);
+// var a = prompt("write anything with the word world")
+// var b = a.indexOf("w");
+// var c = a.indexOf("d");
+// d = a.slice(b,c+1);
+// alert(d);
+
+
+// var array = [[1,2,3,4],[1,2,3,4],[1,2,3,4],[1,2,3,4]];
+
+
+// for( var i = 0 ; i<array.length ; i++){
+//     for(var j = 0 ; j<array.length; j++){
+//         document.write(array[i][j]);
+
+//     }
+//     document.write("<br />")
+// }
+
+
+
+// var a = "Helloworld";
+// for(i=0; i<a.length ; i++ ){
+//     b = a[i];
+//     alert(b);
+// }
