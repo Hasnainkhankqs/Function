@@ -61,10 +61,65 @@
 // combine(ingrd1,ingrd2,ingrd3);
 
 
-function squareNumber(number){
-    result = number*number;
-    // return "Hello sir";
-    return result;
-}
-var squaredNumber = squareNumber(3);
-console.log(squaredNumber) ;
+// function squareNumber(number){
+//     result = number*number;
+//     // return "Hello sir";
+//     return result;
+// }
+// var squaredNumber = squareNumber(3);
+// console.log(squaredNumber) ;
+    
+// 12-11-2016
+
+
+// var a = 5*10;
+// alert(a);
+
+// var a = 27.2727;
+// a = Math.ceil(a);
+// alert(a)
+
+// var a = Math.floor(Math.random()*20);
+// if(a <= 20 && a >= 10){
+//     alert(a);
+// }
+
+// var a = Math.floor(Math.random()*10+10);
+// alert(a);
+
+// var a = 20;
+// function scope(){
+//     var a = 10;
+//     alert(a);
+// }
+// scope();
+
+
+// function bad(){
+//     a = 3;
+//     alert(a);
+// }
+// bad();
+
+
+
+// var a = 10;
+// a++ + a - --a
+// alert(a);
+
+
+// var a = "Helloworld";
+// for(i = 0 ; i < a ; i++){
+//     if(a.slice(i,i+5) === world){
+//         alert();
+//     }
+//     else{
+//         alert("something wrong");
+//     }
+// }
+
+var a = prompt("write anything with the word world")
+var b = a.indexOf("w");
+var c = a.indexOf("d");
+d = a.slice(b,c+1);
+alert(d);
