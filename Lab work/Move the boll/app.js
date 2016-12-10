@@ -1,21 +1,30 @@
 var ball = document.getElementById("ball");
 var left = 0;
-var right = 0;
+// var right = 0;
 var top =0;
-var bottom = 0;
+// var bottom = 0;
+var count = 0;
 function moveLeft(){
-    left -= 2;
-    ball.style.left = left+"px";
+    count-=5;
+    left -= 5;
+    ball.style.marginLeft = left+"px";
+    console.log("left"+count)
 }
 function moveRight(){
-   left += 2;
-    ball.style.right = left+"px";
+   count+=5;
+   left += 5;
+    ball.style.marginLeft = left+"px";
+    console.log("right"+count)
 }
 function moveTop(){
-    left -= 2;
-    ball.style.top = left+"px";
+    count-=5;
+    top -= 5;
+    ball.style.marginTop = top+"px";
+    console.log("top")
 }
 function moveBottom(){
-    left -= 2;
-    ball.style.bottom = left+"px";
+    count+=5;
+    top += 5;
+    ball.style.marginTop = top+"px";
+    console.log("bottom")
 }
