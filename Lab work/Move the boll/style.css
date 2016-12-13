@@ -6,17 +6,19 @@ body{
 
 #ball{
     border-radius: 100px;
+    margin:auto;
     width:100px;
     height:100px;
-    background-color:gray;
+    background-color:yellow;
     box-shadow: 1px 2px 10px black;
-    position:absolute;
+    position:relative;
+    z-index: 5;
 
 }
 #navigator{
     background-color:lightgray;
-    width:200px;
-    height: 200px;
-    margin:200px 0px 0px 300px;
+    width:100px;
+    height: 100px;
+    margin:400px 0px 0px 850px;
     position: absolute;
 }
