@@ -1,6 +1,9 @@
 var quizdiv = document.getElementById("quizdiv");
 
 var quiz = [
-            ["What is Your Country name","Pakistan","America","Saudia","Africa"],
+            ["1-What is Your Country name","America","Saudia","Africa","Pakistan"],
 
-            ["What is Your Country name"]]
+            ["2-What is Your City name","Lahore","Sakhar","Hyderabad","Karachi"]
+            
+            ]
+
