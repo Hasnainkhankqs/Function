@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javaScript Practice for React.js</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>My</td>
+            <td>Name</td>
+            <td>is</td>
+            <td>Hasnain</td>
+        </tr>
+        <tr>
+            <td>My</td>
+            <td>Name</td>
+            <td>is</td>
+            <td>Hasnain</td>
+        </tr>
+    </table>
+    <script>
+    var table = document.getElementsByTagName("table")[0];
+    var tr = document.getElementById("tr");
+    table.addEventListener("click",function(e){
+        var colum = e.target.cellIndex;
+        var row = e.target.dataset.row;
+        console.log("The colum is "+colum +"And the row is "+row);
+    })
+    </script>
+</body>
+</html>
